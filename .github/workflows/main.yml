@@ -28,7 +28,7 @@ jobs:
       id: script
       run: |
         ./autogen.sh
-        ./configure --disable-ruby
+        ./configure --disable-ruby --disable-java
         make
 
     - name: Upload artifact
