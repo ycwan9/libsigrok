@@ -18,7 +18,7 @@ jobs:
     - name: before_install
       run: |
         sudo apt-get update
-        sudo apt-get install -y tree git-core gcc g++ make autoconf autoconf-archive automake libtool pkg-config libglib2.0-dev libglibmm-2.4-dev libzip-dev libusb-1.0-0-dev libftdi1-dev libieee1284-3-dev libvisa-dev nettle-dev libavahi-client-dev libhidapi-dev check doxygen python3-numpy python3-dev python-gi-dev python3-setuptools swig default-jdk
+        sudo apt-get install -y git-core gcc g++ make autoconf autoconf-archive automake libtool pkg-config libglib2.0-dev libglibmm-2.4-dev libserialport-dev libzip-dev libusb-1.0-0-dev libftdi1-dev libieee1284-3-dev libvisa-dev nettle-dev libavahi-client-dev libhidapi-dev check doxygen python3-numpy python3-dev python-gi-dev python3-setuptools swig default-jdk
         
     - name: install
       run: |
